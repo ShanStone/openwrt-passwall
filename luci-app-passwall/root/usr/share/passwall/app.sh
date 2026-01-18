@@ -67,7 +67,7 @@ check_run_environment() {
 			fi
 		done
 	else
-		echolog "警告：不满足任何透明代理系统环境。"
+		echolog "警告：不满足任何透明代理系统环境。(has_fw4:$has_fw4/has_ipt:$has_ipt/has_ipset:$has_ipset/dnsmasq_nftset:$dnsmasq_nftset/dnsmasq_ipset:$dnsmasq_ipset)"
 	fi
 }
 
